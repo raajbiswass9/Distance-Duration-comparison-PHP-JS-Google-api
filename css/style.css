@@ -1,0 +1,23 @@
+
+/*
+.c3-grid line {
+  stroke: none;
+}
+
+.c3-axis-x > path.domain, .tick > line[x2="-6"] {
+  visibility: hidden;
+}
+*/
+
+
+.c3 .c3-axis-x path, .c3 .c3-axis-x line {
+    stroke: #4db2ec;
+	stroke-width: 2;
+}
+.c3-axis .tick line {
+	display: none;
+}
+.c3-axis-x text 
+{
+  font-size: 12px;
+}
